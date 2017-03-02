@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    margin: 20px;
+}
+
+#messages {
+    height: 80%;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+.message {
+    margin: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+#messageBox {
+    border: 1px solid black;
+    border-width: 0px 1px 1px 1px;
+    padding: 10px;
+}
+
+#inputMessage {
+    width: 100%;
+}
